@@ -147,8 +147,27 @@ h1{
 
 
 .skills{
+    padding:20px;  
+     
+}
+
+.skills-container{
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
-    padding:20px;
+    height: 20vh;
+    background-color: var(--secondary--collor);
+    color:var(--text--btn--collor);
+}
+.skills-bar{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.skills-title{
+    font-size:25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.35);
 }
